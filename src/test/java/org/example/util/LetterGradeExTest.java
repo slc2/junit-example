@@ -60,7 +60,7 @@ class LetterGradeExTest {
     void negativeOneShouldReturnIllegalArgumentException() {
         var grader = new LetterGrade();
         assertThrows(IllegalArgumentException.class,
-                () -> {grader.determineLetterGrade(-1);});
+                () -> grader.determineLetterGrade(-1));
 
     }
 }
